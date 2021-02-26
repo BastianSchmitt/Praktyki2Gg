@@ -1,3 +1,5 @@
+package Wstęp;
+
 public class Zadanie4 {
     public static void main (String[] agrs){
         String A = "Bastian";

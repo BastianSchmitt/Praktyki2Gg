@@ -1,3 +1,5 @@
+package Wstęp;
+
 public class Zadanie1 {
     public static void main(String[] args){
         int A =10 ;

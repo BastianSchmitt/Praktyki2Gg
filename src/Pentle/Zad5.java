@@ -1,4 +1,6 @@
-public class Zad5Pentle {
+package Pentle;
+
+public class Zad5 {
     public static void main(String[] args) {
         int wysokoscTrojkata = 8;
 

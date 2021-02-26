@@ -1,3 +1,5 @@
+package Wstęp;
+
 public class Zadanie3 {
     public static void main (String[] agrs){
         double sqrt = Math.sqrt(3);

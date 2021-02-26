@@ -1,6 +1,7 @@
+package Pentle;
 import java.util.Scanner;
 
-public class Zad3Pentle{
+public class Zad3 {
     public static void main(String[] args) {
         //Zadanie 3
         Scanner sc = new Scanner(System.in);

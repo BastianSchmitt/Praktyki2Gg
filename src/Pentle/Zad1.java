@@ -1,4 +1,5 @@
-public class Zad1Pentle {
+package Pentle;
+public class Zad1 {
     public static void main(String[] args){
         char firstLetterOfAnAlphabet = 'A';
         for (int i = 0; i < 26; i++){
