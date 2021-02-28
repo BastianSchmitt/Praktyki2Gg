@@ -1,3 +1,5 @@
+package Tablice;
+
 import java.util.Random;
 
 public class Przykład7 {

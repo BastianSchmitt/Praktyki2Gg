@@ -1,3 +1,5 @@
+package Tablice;
+
 import java.util.Scanner;
     public class Przykład8 {
     public static void main(String[] args) {
