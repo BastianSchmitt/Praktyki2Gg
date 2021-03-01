@@ -4,19 +4,18 @@ import java.util.Random;
 
 public class Przykład7 {
     public static void main(String[] args) {
-        double[] power={-56,-2.22,23.45,-34.8,45.90,67.45,234.11,90.4,-77};
         Random random = new Random();
-        int w,z;
-        w = random.nextInt(9);
-        z = random.nextInt(9);
-        if (power[w]==power[z]){
-            System.out.println("liczba "+power[w]+ " jest równa "+power[z]);
+        double[] A = {23.45, -2.22, 45.90, 67.45, -56, 234.11,-34.8, 90.4, -77};
+        int los = random.nextInt(9);
+        int los2 = random.nextInt(9);
+        if (A[los] > A[los2]) {
+            System.out.println("Liczba " + A[los] + " jest większa od liczby " + A[los2]);
         }
-        else if (power[w]>power[z]){
-            System.out.println("liczba "+power[w]+ " jest wieksza od "+power[z]);
+        if (A[los] < A[los2]) {
+            System.out.println("Liczba " + A[los] + " jest mniejsza od liczby " + A[los2]);
         }
-        else{
-            System.out.println("liczba "+power[z]+ " jest wieksza od "+power[w]);
+        if (A[los] == A[los2]) {
+            System.out.println("Liczba " + A[los] + " jest równa liczbie " + A[los2]);
         }
     }
 }
