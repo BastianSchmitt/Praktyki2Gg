@@ -19,10 +19,6 @@ public class main {
         Spawacz spawacz = new Spawacz(7000,"pełny",true,true);
         spawacz.wykonujePrace();
 
-        //Zadanie 4
-        System.out.println("Zadanie 4");
-        System.out.println(" Która metoda przysłania metodę z klasy nadrzędnej/superclass?\n methodTwo, methodFour");
-        System.out.println(" Która metoda jest ukryta/niewidzialna w klasie B?\nmethodThree i medtodOne");
 
     }
 }
